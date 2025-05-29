@@ -1,7 +1,7 @@
 // Paul Ramirez
 
 //1) Crear el script .js con la creación de la base de datos y las colecciones.
-
+use libreria;
 db.librosEspeciales.drop();
 db.librosEspeciales.insertMany([
   {
